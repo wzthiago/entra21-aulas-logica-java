@@ -11,8 +11,9 @@ public class Main {
 		// instanciando um objeto da classe Scanner e ja utilizando o método next
 		switch (new Scanner(System.in).next().toLowerCase()) {
 
-		case "socorro":// opção que s[o o desenvolvedor sabe, para sair
+		case "socorro":// opção que só o desenvolvedor sabe, para sair
 			System.exit(0);
+			
 		case "0", "sair":
 			System.out.println("Escolheu sair");
 			break;
